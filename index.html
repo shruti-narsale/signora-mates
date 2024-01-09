@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Website</title>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+
+    </head>
+ <body>
+     <section class="header">
+         <nav>
+             <a href="index.html">
+                 <img src="images/logo2.png"></a>
+             <div class="nav-links" id="navLinks">
+                 <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="">HOME</a></li>
+                     <li><a href="">AMENITIES</a></li>
+                     <li><a href="">NEIGHBOURHOOD</a></li>
+                     <li><a href="">REVIEWS</a></li> 
+                     <li><a href="">CONTACT US</a></li>
+                 </ul>
+                 </div>
+                 <i class="fa fa-bars" onclick="showMenu()"></i>
+         </nav>
+<div class="text-box">
+    <h1> SAARRTHI Signor At Hinjewadi </h1><br>
+    <p>SAARRTHI Signor is the grand and acclaimed residential landmark of Hinjewadi.<br><br>
+        Pune comes forward with a vast infrastructural, realty and industrial depictions in the real time. There are renowned and enormous firms or companies taking initiatives for dissimilar segments of tasks at present. SAARRTHI Builders are one of the acclaimed giants of real estate industry established currently in this city to contribute for the commodious level of depiction in divergent parts at present or in future.<br> SAARRTHI Signor is one of the presentations of residential segments at Hinjewadi, Pune.</p>
+        <a href="" class="hero-btn">Visit Us To Know More </a>
+</div>
+     </section>
+
+     <!------amenities------->
+     <section class="amenities">
+         <h1>Amenities</h1><br>
+         <p>At SAARRTHI Signor, we have multiple community amenities, including two parks, <br>a swimming pool, a kiddie pool, a clubhouse, a gymnasium and a play area.<br><br> These amenities enhance lifestyles for residents, creating spaces that allow families<br> to bond while increasing a sense of well-being. </p>
+        
+        <div class="row">
+            <div class="amenities-col">
+                <h3>Parks, Play Area & Pools</h3>
+                <p>Over 30,000 sq. ft. area of green grass, a sand pit and a swimming pool fit for both adults and children. </p>
+            </div>
+            <div class="amenities-col">
+                <h3>Gymnasium</h3>
+                <p>A fully equipped gym, attached to a large balcony for other sports activities like skipping, jogging and can also be used for holding community meetings or events. </p>
+            </div>
+            <div class="amenities-col">
+                <h3>Clubhouse</h3>
+                <p>A spacious clubhouse for society events and gatherings, equipped with a table-tennis table and a carrom board. </p>
+            </div>
+        </div>
+
+
+     </section>
+
+
+     <!-------neighbourhood-------->
+     
+     
+     <section class="neighbourhood">
+    <h1>Our Neighbourhood</h1>
+    <p>Hinjewadi's IT Park is widely known as one of the epicenters of IT industry in India.</p>    
+    </section>
+
+     <!-------JavaScript for Toggle Menu------->
+     <script>
+         var navLinks = document.getElementById("navLinks");
+         function showMenu(){
+             navLinks.style.right="0";
+         }
+         function hideMenu(){
+             navLinks.style.right="-200";
+         }
+     </script>
+ </body>   
+</html
